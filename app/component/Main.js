@@ -21,7 +21,9 @@ function Main() {
 						<br></br><b>Good luck!</b>
 					</div>
 					<div className='line'></div>
-					<button className="start-button">Let's Start!</button>
+					<a className='' href='/McqComponent'>
+						<button className="start-button">Let's Start!</button>
+					</a>		
 				</div>
 		
 			</div>

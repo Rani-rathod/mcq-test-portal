@@ -1,0 +1,117 @@
+.submit-contener {
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #EBE9E6;
+}
+
+.submit-main {
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 705px;
+    height: 516px;
+    margin-top: 103px;
+    margin-bottom: 428px;
+    background-color: #F9F7F2;
+}
+
+.successfully-lebal {
+    /* border: 1px solid red; */
+    width: 265px;
+    margin: auto;
+    height: 29px;
+    color: #1F1E1C;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -0.48px;
+    margin-bottom: 36px;
+
+}
+
+.successfully-box {
+    /* border: 1px solid red; */
+    width: 319px;
+    /* height: 141px; */
+    margin: auto;
+    margin-top: 22px;
+}
+
+.completing-test {
+    /* border: 1px solid black; */
+    margin-bottom: 12px;
+    height: 22px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    align-self: stretch;
+
+}
+
+.Review-msg {
+    /* border: 1px solid black; */
+    height: 42px;
+    color: #000;
+    text-align: center;
+    align-self: stretch;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.img{
+    /* border: 1px solid black; */
+    width: 28px;
+    height: 28px; 
+    margin: auto;
+    margin-top: 65px;
+    position: relative;
+}
+.group{
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 9px;
+    right: 6px;
+}
+
+.check-button {
+    /* margin-left: 239px;
+    margin-right: 243px; */
+    margin-top: 98px;
+    width: 222px;
+    height: 54px;
+    display: inline-flex;
+    padding: 16px 35px;
+    justify-content: center;
+    align-items: center;
+    color: #1F1E1C;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 4px;
+    border: 2px solid #F4D150;
+    background: #FEEEB4;
+    box-shadow: 0px 4px 7px 0px #B3AE9C;
+}
+
+@media (max-width:360px){
+    .submit-main{
+        width: 320px;
+        height: 422px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

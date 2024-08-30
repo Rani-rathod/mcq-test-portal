@@ -8,7 +8,6 @@ function page() {
     <div className='main-container'>
       <Header/>
       <Main/>
-      <Footer/>
     </div>
   )
 }
