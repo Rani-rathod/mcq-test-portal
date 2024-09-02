@@ -8,11 +8,13 @@ function McqQue() {
             <div className='container-main'>
                 <div className='secont-container-main'>
                     <Filter />
+                    <div className='questioncard'>
                     <QuestionCard />
                     <QuestionCard />
                     <QuestionCard />
                     <QuestionCard />
                     <QuestionCard />
+                    </div>
                 </div>
             </div>
         </>

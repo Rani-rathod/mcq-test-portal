@@ -32,7 +32,6 @@ function QuestionCard() {
                     </label>
                 </div>
             </div>
-
         </div>
     )
 }

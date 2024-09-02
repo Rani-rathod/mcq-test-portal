@@ -28,7 +28,8 @@ body {
 
 
 .secont-container-main {
-    /* border: 1px solid black; */
+    border: 1px solid black;
+    /* background-color:palevioletred; */
     width: 894px;
     /* margin: auto; */
     margin-left: 103px;
@@ -43,9 +44,11 @@ body {
 .header {
     /* border: 1px solid blue; */
     margin: auto;
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     /* justify-content: space-between; */
     position: relative;
+    display: flex;
 
 }
 
@@ -73,18 +76,23 @@ body {
     letter-spacing: 1.437px;
 }
 
+.header-pagi {
+    width: 996px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
 
 .pagination {
     /* border: 1px solid green; */
     display: flex;
     align-items: center;
-    margin-left: 444px;
+    /* margin-left: 444px; */
     gap: 16px;
     width: 440px;
     height: 30px;
     margin-top: 25px;
     margin-bottom: 17px;
-
 }
 
 
@@ -138,7 +146,7 @@ body {
     width: 560px;
     /* width: 1200px; */
     /* height: 1765px; */
-    /* border: solid 1px blue; */
+    border: solid 1px blue;
     /* margin: 20px auto; */
     /* margin-top: 138px; */
     margin: auto;
@@ -417,3 +425,87 @@ body {
     font-family: "Inria Sans";
 }
 
+/* Mobile View */
+
+.mobile-view{
+    border: 1px solid black;
+    /* height: 74px; */
+    width: 576px;
+}
+.questioncard{
+    width: 894px;
+    margin-bottom: 136px;
+}
+
+.desktop-view {
+    display: block;
+}
+
+.mobile-view {
+    display: none;
+}
+
+.dots{
+    color: #1F1E1C;
+    text-align: center;
+    font-family: "Inria Sans";
+    font-size: 14px;
+}
+
+
+@media (max-width:576px) {
+    .mobile-view {
+        display: block;
+        
+    }
+
+
+    .desktop-view {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .header {
+        /* width: 100%;
+        /* height: 72px; */
+        border: 1px solid blue;
+        /* display: flex; */
+    }
+
+    .header-left {
+        border: 1px solid black;
+        width: 112px;
+        height: 36px;
+        margin-top: 18px;
+        margin-bottom: 18px;
+        margin-left: 214px;
+        margin-right: 150px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .submit-button {
+        display: none;
+    }
+
+    .pagination{
+        border: 1px solid black;
+        margin: auto;
+        width: 322px;
+        /* margin-top: 20px;
+        margin-bottom: 24px; */
+    }
+    /* .desktop-view {
+        display: none;
+    }
+
+
+    .mobile-viwe{
+        display: block;
+    } */
+    .header-pagi {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

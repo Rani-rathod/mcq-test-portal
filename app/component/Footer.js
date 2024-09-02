@@ -4,7 +4,7 @@ function Footer(){
 	return (
 	<div className="footer">
 		<div className="footerHeader">Footer</div>
-			<div className="footerName">© Copyright, All Rights Reserved by Ungineering</div>
+			<div className="footerName">© NavGurukul Project</div>
 	</div>
 	)
 }
