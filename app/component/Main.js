@@ -1,4 +1,3 @@
-import react from 'react';
 
 function Main() {
 	return (
@@ -31,3 +30,8 @@ function Main() {
 	)
 }
 export default Main;
+
+
+
+
+

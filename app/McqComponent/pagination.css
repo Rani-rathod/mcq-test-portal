@@ -1,0 +1,140 @@
+.pagination {
+    /* height: 30px; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 17px;
+}
+
+@media (max-width:576px) {
+    .pagination {
+        display: flex;
+        /* width: 320px; */
+        /* border: 1px solid black; */
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+
+    }
+}
+
+.table {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 576px) {
+    .table {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .arrow-logo {
+        margin-left: 0px;
+        display: none;
+    }
+
+    .arrow-logo1 {
+        margin-left: 26px;
+    }
+}
+
+.pageNo {
+    border: 2px solid #E0DFDA;
+    width: 28px;
+    /* height: 28px; */
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    /* margin-left: 16px; */
+
+
+
+}
+.arrow-logo {
+    width: 28px;
+    /* height: 30px; */
+    border-radius: 30px;
+}
+
+
+.arrow-logo1 {
+    width: 30px;
+    /* height: 30px; */
+    border-radius: 30px;
+    margin-left: 16px;
+
+}
+
+.previous {
+    display: none;
+}
+
+.dotespace {
+    display: none;
+}
+
+
+
+.Pagination-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 576px) {
+    .Pagination-box {
+        display: flex;
+        margin-top: 40px;
+    }
+}
+@media(max-width: 576px) {
+    .dotespace {
+        /* border: 2px solid #E0DFDA; */
+        width: 10px;
+        height: 30px;
+        display: flex;
+        border: none;
+
+    }
+
+    .pageNo {
+        justify-content: center;
+        align-items: center;
+        margin-left: 26px;
+    }
+
+    .pointer {
+        height: 30px;
+        width: 30px;
+        background: #4C4B49;
+        color: #EBE9E6;
+        border: 1px solid #4C4B49;
+
+    }
+
+    .previous {
+        display: block;
+        width: 30px;
+        height: 30px;
+        border: none;
+        margin-left: 0px
+    }
+
+
+
+    .des-only {
+        display: none;
+    }
+
+    .number {
+        display: none;
+    }
+
+    .des-only {
+        display: none;
+    }
+}

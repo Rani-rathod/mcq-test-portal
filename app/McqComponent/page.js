@@ -1,14 +1,14 @@
-import React from 'react';
-import Header from './Header';
-import './McqComponent.css';
-import McqQue from './McqQue';
 
-
+import Header from './header';
+import Content from './content';
+import './style.css';
+// import Footer from './Footer';
 function page () {
   return (
     <div>
       <Header/>
-      <McqQue/>
+      <Content/>
+      {/* <Footer/> */}
     </div>
   )
 }
