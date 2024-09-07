@@ -191,6 +191,7 @@ body {
     border: 1px solid #F4D150;
     background: #FEEEB4;
     margin-top: 6px;
+    margin-left: 8px;
 }
 
 .timer {
@@ -428,7 +429,8 @@ body {
 @media (max-width: 576px) {
     .mobile-view {
         display: block;
-        margin-top: 90px;
+        margin-top: 20px;
+        border: 1px solid red;
 
     }
 

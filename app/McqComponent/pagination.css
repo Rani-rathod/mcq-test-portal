@@ -43,17 +43,19 @@
 .pageNo {
     border: 2px solid #E0DFDA;
     width: 28px;
-    /* height: 28px; */
     font-size: 14px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    /* margin-left: 16px; */
-
-
-
+    color: #1F1E1C;
+    text-align: center;
+    font-family: "Inria Sans";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
 }
+
 .arrow-logo {
     width: 28px;
     /* height: 30px; */
@@ -88,9 +90,12 @@
 @media (max-width: 576px) {
     .Pagination-box {
         display: flex;
-        margin-top: 40px;
+        /* margin-top: 40px; */
+        padding-top: 34px;
+        padding-bottom: 24px;
     }
 }
+
 @media(max-width: 576px) {
     .dotespace {
         /* border: 2px solid #E0DFDA; */

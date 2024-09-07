@@ -7,7 +7,7 @@ function Headerpage() {
             <div className="header-row ">
                 <div className='header-box '>
                     <div className='logo-pagination'>
-                        <div className='logo-text'>
+                        <div className='logo-box'>
                             <img className="logo" src="Logo.png" alt="Logo" />
                             <span className="header-title">QA</span>
                         </div>
