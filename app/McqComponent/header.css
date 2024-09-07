@@ -1,13 +1,10 @@
 .header-row {
     background: #FCFAFA;
-    /* border: 1px solid black; */
-    /* height: 72px; */
 }
 
 .header-box {
     display: flex;
     width: 1200px;
-    /* border: 1px solid black; */
     margin: auto;
     text-align: center;
     justify-content: space-between;
@@ -33,27 +30,19 @@
 
 .header {
     width: 1200px;
-    /* border: 1px solid red; */
 }
 
 .logo-box {
     display: flex;
     width: 112px;
-    /* height: 36px; */
     justify-content: center;
     align-items: center;
-    /* border: 1px solid black; */
-    /* margin-top: 18px;
-    margin-bottom: 18px; */
 }
 
 @media (max-width: 576px) {
 
     .logo-box {
-        margin: auto;
-        /* margin-top: 18px;
-        margin-bottom: 18px; */
-        
+        margin: auto;        
     }
 
 }
@@ -69,7 +58,6 @@
     font-size: 28.736px;
     letter-spacing: 1.437px;
     margin-left: 8px;
-    /* border: 1px solid black; */
 
 }
 
@@ -77,14 +65,11 @@
     height: 30px;
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid black; */
 }
 
 @media (max-width:576px) {
     .pagination {
         display: flex;
-        /* width: 320px; */
-        /* border: 1px solid black; */
         justify-content: center;
         text-align: center;
         margin: auto;
@@ -117,7 +102,6 @@
 
 @media(max-width: 576px) {
     .dotespace {
-        /* border: 2px solid #E0DFDA; */
         width: 10px;
         height: 30px;
         display: flex;
@@ -147,14 +131,6 @@
         border: none;
         margin-left: 0px
     }
-
-    /* .top {
-        border-top: 1px solid #EBE9E6;
-        width: 100%;
-        background: var(--Light-a, #FCFAFA);
-        box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.10);
-
-    } */
 
 
     .des-only {
@@ -207,7 +183,6 @@
 .logo-pagination {
     display: flex;
     width: 997px;
-    /* border:1px solid black; */
     height: 72px;
     justify-content: space-between;
     padding: 18px;
@@ -218,7 +193,6 @@
     .logo-pagination {
         display: block;
         width: 100%;
-        /* border-top: 1px solid #EBE9E6; */
         background: var(--Light-a, #FCFAFA);
         box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.10);
 
