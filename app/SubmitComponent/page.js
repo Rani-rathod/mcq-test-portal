@@ -21,7 +21,7 @@ const  submit_buttonbar= function(){
                         </div>
                     </div>
                     <div className="check-score-button">
-                        <a href="/check_component">
+                        <a href="/">
                             <button className="check-button"> Check Your Score</button>
                         </a>
                     </div>
