@@ -8,32 +8,23 @@ body {
 }
 
 .main-container {
-    /* border: 1px solid black; */
     width: 100%;
-    /* height: 1109px; */
-    /* margin: auto; */
     display: flex;
     flex-direction: column;
-    /* min-height: 100vh; */
     background-color: #EBE9E6;
 }
 
 
 
 .Header{
-        /* border: 1px solid blue; */
         display: flex;
-        /* align-items: center;
-        justify-content: center; */
         height: 72px;
         width: 100%;
         background-color: #FCFAFA;
 }
 
 .header-box {
-    /* border: 1px solid black; */
     gap: 5px;
-    /* width: 56px; */
     height: 36px;
     flex-shrink: 0;
     color: #8F887C;
@@ -56,7 +47,6 @@ body {
 
 
 .mcq-div {
-    /* border: 1px solid palevioletred; */
     color: #4C4B49;
     font-family: Inter;
     font-size: 24px;
@@ -72,9 +62,6 @@ body {
 
 
 .main-page {
-    /* text-align: center;
-    margin-left: auto;
-    margin-right: auto; */
     width: 705px;
     margin: auto;
 
@@ -83,13 +70,10 @@ body {
 .instructions {
     line-height: 150%;
     text-align: left;
-    /* height: 620px; */
     margin: auto;
     margin-bottom: 77px;
     width: 705px;
-    /* height: 620px; */
     border: 1px solid white;
-    /* padding: 80px; */
     background-color: #F9F7F2;
 }
 
@@ -157,30 +141,29 @@ body {
 
 
 
-.footer {
-    background-color: #4C4B49;
-    display: flex;
-    width: 100%;
+
+.footer-content{
     height: 171px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    border: solid 1px pink;
+    background-color: #4C4B49;
 }
-
-.footerHeader {
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: white;
+.main-row{
+    height: 57px;
+    margin-top: 46px;
+    margin-bottom: 68px;
 }
-
-.footerName {
-    font-family: "Inria Sans";
-    line-height: 350%;
-    color: white;
+.footer-text{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #F9F7F2;
 }
-
-
+.footer-headline{
+    font-size: 14px;
+    text-align: center;
+    color: #EBE9E6;
+   
+} 
 @media (max-width:576px) {
     body {
         margin: auto;
@@ -247,15 +230,6 @@ body {
         margin-left: 80px;
         margin-right: 81px;
     }
-
-
-    .footer {
-        width: 576px;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
 
 }
 

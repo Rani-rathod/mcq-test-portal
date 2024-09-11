@@ -1,13 +1,20 @@
 import react from 'react';
 
-function Footer(){
-	return (
-	<div className="footer">
-		<div className="footerHeader">Footer</div>
-			<div className="footerName">© NavGurukul Project</div>
-	</div>
-	)
+
+const Footer=()=>{
+    return(
+        <>
+            <div className="footer-content">
+                <div className="main-row">
+                    <div className="footer-text"> Footer</div>
+                        <div className="footer-headline">
+                            © Copyright, NavGurukul Project
+                        </div>
+                </div>
+            </div>
+        </>
+    )
+
+    
 }
-export default Footer;
-
-
+export default Footer

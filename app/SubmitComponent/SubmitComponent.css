@@ -15,7 +15,7 @@ body{
     margin: auto;
     width: 705px;
     padding: 65px 0px 108px 0px;
-    background-color: #FCFAFA;
+    background-color: #F9F7F2;
 }
 @media(max-width:576px) {
     .submit-content{

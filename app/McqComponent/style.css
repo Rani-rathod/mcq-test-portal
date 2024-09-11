@@ -17,6 +17,7 @@ body {
 
 }
 
+
 @media (max-width: 576px) {
     .content-box {
         display: block;
@@ -29,23 +30,16 @@ body {
     
 }
 
-.questions {
-    width: 560px;
-    margin-top: 60px;
-    margin-left: 50px;
+
+
+.mobile-view{
+    display: block;
 }
 
-@media (max-width: 576px) {
-    .questions {
-        display: block;
-        width: 100%;
-        margin: auto;
-    }
+.filter-content{
+    /* border: 1px solid red; */
+    height: 557px;
 }
-
-
-
-
 .filter {
     width: 284px;
     height: 375px;
@@ -55,6 +49,7 @@ body {
     border-radius: 12px;
     margin-left: 103px;
 }
+
 
 /* @media (max-width: 576px) {
     .filter {
@@ -374,7 +369,7 @@ body {
 }
 
 .timer-text {
-    margin-top: 20px;
+    margin-top: 8px;
     color: #1F1E1C;
     font-family: Inter;
     font-size: 14px;
@@ -396,8 +391,9 @@ body {
 @media (max-width: 576px) {
     .mobile-view {
         display: block;
-        margin-top: 20px;
+        /* margin-top: 20px; */
         border: 1px solid red;
+        padding: 20px 20px 0px 20px;
 
     }
 

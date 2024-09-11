@@ -1,7 +1,7 @@
 const Filter = () => {
     return (
         <>
-            <div className="desktop-view">
+            <div className="desktop-view filter-content">
                 <div className="filter">
                     <div className="filter-div">
                         <div className="filter-heading">filters</div>
@@ -31,7 +31,6 @@ const Filter = () => {
                         </div>
                         <div className="filter-text">filter</div>
                     </div>
-
                 </div>
             </div>
         </>
