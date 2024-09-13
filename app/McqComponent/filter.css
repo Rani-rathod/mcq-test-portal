@@ -104,8 +104,8 @@
 
 .timerfilter-container{
     border: 1px solid blue;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
 }
 
 @media (max-width: 576px) {
