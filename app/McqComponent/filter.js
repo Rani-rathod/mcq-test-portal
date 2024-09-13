@@ -1,7 +1,12 @@
+
+import './filter.css';
+import Timers from './Timer';
 const Filter = () => {
     return (
         <>
-            <div className="desktop-view filter-content">
+        <div className='timerfilter-container'>
+            <Timers />
+            <div className="desktop-view">
                 <div className="filter">
                     <div className="filter-div">
                         <div className="filter-heading">filters</div>
@@ -22,7 +27,6 @@ const Filter = () => {
                 </div>
             </div>
             <div className="mobile-view">
-                <div className="mob-filter">
                     <div className="filter-button">
                         <div className="filter-line">
                             <div className="line one"></div>
@@ -31,10 +35,9 @@ const Filter = () => {
                         </div>
                         <div className="filter-text">filter</div>
                     </div>
-                </div>
+            </div>
             </div>
         </>
-
     )
 }
 export default Filter;

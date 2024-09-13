@@ -1,4 +1,3 @@
-import Filter from "./filter";
 
 const Timers = () => {
     return (

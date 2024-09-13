@@ -73,7 +73,7 @@ body {
     margin: auto;
     margin-bottom: 77px;
     width: 705px;
-    border: 1px solid white;
+    border: 1px solid #F9F7F2;
     background-color: #F9F7F2;
 }
 
@@ -144,7 +144,7 @@ body {
 
 .footer-content{
     height: 171px;
-    border: solid 1px pink;
+    border: solid 1px #4C4B49;
     background-color: #4C4B49;
 }
 .main-row{

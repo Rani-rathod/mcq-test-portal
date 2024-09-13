@@ -21,9 +21,9 @@ const  submit_buttonbar= function(){
                         </div>
                     </div>
                     <div className="check-score-button">
-                        {/* <a href="/"> */}
+                        <a href="/check_question">
                             <button className="check-button"> Check Your Score</button>
-                        {/* </a> */}
+                        </a>
                     </div>
                 </div>
             </div>
