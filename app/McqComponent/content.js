@@ -5,6 +5,7 @@ const Content = () => {
     return (
         <>
             <div className="content-box">
+                <div className="main">
                 <Filter />
                 <div className="questions">
                     <Container />
@@ -14,7 +15,7 @@ const Content = () => {
                     <Container />
                 </div>
             </div>
-
+            </div>
         </>
 
     )

@@ -14,6 +14,7 @@ body {
     position: relative;
     margin: auto;
     margin-bottom: 136px;
+    /* border: 1px solid red; */
 
 }
 
@@ -71,8 +72,8 @@ body {
 
 .timer {
     display: flex;
-    width: 152px;
-    height: 152px;
+    width: 150px;
+    height: 149px;
     padding: 0px 0.896px 0.237px 0.896px;
     justify-content: center;
     align-items: center;
@@ -96,13 +97,24 @@ body {
 
 
 .timer-div {
-    width: 154px;
+    width: 152px;
     height: 180px;
     position: absolute;
     text-align: center;
     top: -56px;
     left: 170px;
     z-index: 2;
+}
+
+@media (max-width: 576px) {
+
+    .timer-div {
+        width: 101px;
+        height: 100px; 
+        top: 23px;
+        left: 0px;
+        /* display: flex; */
+    }
 }
 
 @media (max-width: 576px) {
@@ -113,16 +125,10 @@ body {
         justify-content: space-between;
     }
 
-    .timer-div {
-        width: 125px;
-        height: 125px;   
-        top: 23px;
-        left: 0px;
-        display: flex;
-    }
 
     .timer {
-        height: 120px;
+        height: 100px;
+        width: 100px;
         padding: 0px 0.896px 0.237px 0.896px;
         justify-content: center;
         align-items: center;
@@ -134,8 +140,8 @@ body {
 
     .timer-inside {
         display: flex;
-        width: 100px;
-        height: 100px;
+        width: 85px;
+        height: 85px;
         padding: 0px 0.896px 0.237px 0.896px;
         justify-content: center;
         align-items: center;

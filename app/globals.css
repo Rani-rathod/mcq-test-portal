@@ -67,6 +67,8 @@ body {
 
 }
 
+
+
 .instructions {
     line-height: 150%;
     text-align: left;
@@ -75,6 +77,8 @@ body {
     width: 705px;
     border: 1px solid #F9F7F2;
     background-color: #F9F7F2;
+    font-size: 14px;
+
 }
 
 .info1 {
@@ -84,6 +88,8 @@ body {
     margin: auto;
     margin-top: 40px;
     margin-bottom: 16px;
+    font-size: 18px;
+
 }
 
 .info2 {
@@ -164,6 +170,9 @@ body {
     color: #EBE9E6;
    
 } 
+
+
+
 @media (max-width:576px) {
     body {
         margin: auto;

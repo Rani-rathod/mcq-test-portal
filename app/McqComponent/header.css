@@ -105,7 +105,7 @@
     width: 997px;
     height: 72px;
     justify-content: space-between;
-    padding: 18px;
+    /* padding: 18px; */
 }
 
 
@@ -115,6 +115,6 @@
         width: 100%;
         background: var(--Light-a, #FCFAFA);
         box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.10);
-
+        padding: 18px;
     }
 }
