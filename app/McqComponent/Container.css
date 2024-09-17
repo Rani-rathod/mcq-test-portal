@@ -91,7 +91,8 @@
 
 .questions {
     width: 560px;
-    margin-top: 66px;
+    /* margin-top: 66px; */
+    padding-top: 26px;
     margin-left: 50px;
 }
 

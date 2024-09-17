@@ -102,31 +102,25 @@ body {
     /* height: 180px; */
     position: relative;
     text-align: center;
-    top: -56px;
+    /* top: -56px; */
+    bottom: 50px;
     /* left: 170px; */
     /* z-index: 2; */
 }
+
 
 @media (max-width: 576px) {
 
     .timer-div {
         width: 101px;
         height: 100px; 
-        top: 23px;
+        top: 0px;
         left: 0px;
         /* display: flex; */
     }
 }
 
 @media (max-width: 576px) {
-    .mobile-view {
-        display: flex;
-        height: 181px;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-
     .timer {
         height: 100px;
         width: 100px;
@@ -160,8 +154,8 @@ body {
         text-transform: uppercase;
     }
 
-    
 }
+
 
 .dot {
     color: var(--Error, #E68086);
@@ -256,9 +250,21 @@ body {
     .mobile-view {
         display: block;
         /* margin-top: 20px; */
-        padding: 20px 20px 0px 20px;
+        padding: 27px 0px 0px 0px;
+        display: flex;
+        height: 181px;
+        /* align-items: center; */
+        justify-content: space-between;
+    
 
     }
-
 }
 
+@media (max-width: 576px) {
+    .timerfilter-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* padding: 10px; */
+    }
+}
