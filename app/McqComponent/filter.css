@@ -68,7 +68,8 @@
     width: 284px;
     height: 375px;
     border: 1px dashed #777671;
-    margin-top: 140px;
+    position: relative;
+    top: -30px;
     background: #F9F7F2;
     border-radius: 12px;
     /* margin-left: 103px; */

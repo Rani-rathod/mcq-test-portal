@@ -3,7 +3,7 @@ const Pagination = () => {
     return (
         <>
             <div className="pagination ">
-                <img className="arrow-logo" src="arrow1.png" alt="Logo" />
+                <img className="left" src="arrow1.png" alt="Logo" />
                 <img src="arrow1.png" className='pageNo previous' />
                 <div className="pageNo">1</div>
                 <div className="pageNo dotespace">...</div>
@@ -15,7 +15,7 @@ const Pagination = () => {
                 <div className="pageNo number">6</div>
                 <div className="pageNo number">7</div>
                 <div className="pageNo">8</div>
-                <img className="arrow-logo1" src="arrow2.png" alt="Logo" />
+                <img className="right" src="arrow2.png" alt="Logo" />
             </div>
         </>
     )
