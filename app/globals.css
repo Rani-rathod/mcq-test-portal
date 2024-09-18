@@ -143,6 +143,8 @@ body {
     font-family: Inter;
     width: 159px;
     height: 54px;
+    cursor: pointer;
+
 }
 
 
@@ -238,8 +240,6 @@ body {
         width: 159px;
         margin-left: 80px;
         margin-right: 81px;
-        cursor: pointer;
-
     }
 
 }
