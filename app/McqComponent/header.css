@@ -46,6 +46,10 @@
         height: 72px;      
     }
 
+    .model-line{
+        border: 1px solid #E0DFDA;
+        width: 100%;
+    }
 }
 
 
