@@ -67,89 +67,6 @@ body {
 
 }
 
-
-
-.instructions {
-    line-height: 150%;
-    text-align: left;
-    margin: auto;
-    margin-bottom: 77px;
-    width: 705px;
-    border: 1px solid #F9F7F2;
-    background-color: #F9F7F2;
-    font-size: 14px;
-
-}
-
-.info1 {
-    /* border: 1px solid black; */
-    height: 22px;
-    width: 471px;
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom: 16px;
-    font-size: 18px;
-
-}
-
-.info2 {
-    /* border: 1px solid blue; */
-    height: 21px;
-    width: 471px;
-    margin: auto;
-}
-
-.ul-div {
-    width: 471px;
-    /* border: 1px solid red; */
-    margin: auto;
-}
-
-.info3 {
-    /* border: 1px solid green; */
-    width: 471px;
-    margin: auto;
-}
-
-.info4 {
-    /* border: 1px solid black; */
-    width: 471px;
-    margin: auto;
-    margin-top: 8px;
-}
-
-
-.line {
-    /* border: 1px solid black; */
-    background-color: #4C4B49;
-    width: 620px;
-    height: 2px;
-    margin: auto;
-    margin-top: 40px;
-
-}
-
-
-.start-button {
-    margin-top: 39px;
-    margin-bottom: 49px;
-    margin-left: 273px;
-    margin-right: 273px;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #FEEEB4;
-    border: 1px solid #F4D150;
-    border-radius: 5px;
-    font-family: Inter;
-    width: 159px;
-    height: 54px;
-    cursor: pointer;
-
-}
-
-
-
-
 .footer-content{
     height: 171px;
     border: solid 1px #4C4B49;
@@ -196,53 +113,133 @@ body {
 
     }
 
-    .instructions {
-        width: 320px;
-        margin: auto;
-        margin-bottom: 80px;
-    }
+}
 
-    .info1 {
-        margin-top: 40px;
-        margin-bottom: 15px;
-        text-align: center;
-        width: 280px;
-        height: 22px;
 
-    }
-
-    .info2 {
-        width: 280px;
-        height: 42px;
-    }
-
-    .ul-div {
-        width: 280px;
-        height: 378px;
-    }
-
-    .info3 {
-        width: 280px;
-        margin-top: 130px;
-    }
-
-    .info4 {
-        margin-top: 8px;
-        width: 280px;
-        height: 42px;
-    }
-
-    .line {
-        width: 280px;
-    }
-
-    .start-button {
-        width: 159px;
-        margin-left: 80px;
-        margin-right: 81px;
-    }
+.instraction{
+    background-color:  #EBE9E6;
+    padding-bottom: 143px;
+}
+.headline{
+    font-weight: 600;
+    text-align: center;
+    padding: 55px 0px 19px 0px;
+    color: var(--Dark-b, #4C4B49);
 
 }
+@media(max-width:576px) {
+    .headline{
+        padding: 40px 34px; 
+    }    
+}
+
+.instraction-container{
+    width: 705px;
+    margin: auto;
+    padding: 40px 0px 49px 0px;
+    background-color:#F9F7F2;
+}
+@media (max-width:576px) {
+    .instraction-container{
+        width: auto;
+        margin: auto 20px;
+
+    }
+    
+}
+.instraction-content{
+    width: 471px;
+    margin: auto;
+}
+@media(max-width:576px) {
+    .instraction-content{
+        width: auto;
+        margin: auto 20px;
+    }
+    
+}
+.context{
+    font-size: 18px;
+    font-weight: 700;
+    color: #4C4B49;
+
+}
+@media (max-width:576px) {
+    .context{
+        text-align: center;
+    }
+}
+
+.instraction-text{
+    margin-top: 16px;
+    font-size: 14px;
+    color: #4C4B49;
+}
+.test-instraction{
+    width: 475px;
+    margin-top: 8px;
+    font-size: 14px;
+    color: #4C4B49;
+}
+
+@media(max-width:576px) {
+    .test-instraction{
+        width: auto;
+    }
+    
+}
+.test-url{
+    padding-left: 25px;
+    margin-bottom: 0;
+    color: #4C4B49;
+
+}
+.test-rule{
+    margin-top: 8px;
+    font-size: 14px;
+    color: #4C4B49;
+
+}
+.last-instraction{
+    margin-top: 8px;
+    font-size: 14px;
+    color: #4C4B49;
+
+}
+.instruction-line{
+    width: 620px;
+    height: 1px;
+    background-color:#4C4B49 ;
+    margin: auto;
+    margin-top: 40px;
+}
+@media (max-width:576px) {
+    .instruction-line{
+        margin: auto 20px;
+        width: auto;
+        margin-top: 40px;
+
+    }
+    
+}
+.start-button{
+    text-align: center;
+   
+}
+.click{
+    width: 159px;
+    margin-top: 39px;
+    font-size: 18px;
+    box-shadow: 0px 4px 7px 0px #B3AE9C;
+    padding: 16px 0px 16px 0px;
+    border-radius: 4px;
+    border: 2px solid  #F4D150;
+    background-color:  #FEEEB4;
+    cursor: pointer;
+
+} 
+
+
 
 /* 
 @media {
@@ -272,5 +269,3 @@ body {
 }
     
 } */
-
-
