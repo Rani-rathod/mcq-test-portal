@@ -250,21 +250,13 @@ body {
     .mobile-view {
         display: block;
         /* margin-top: 20px; */
-        padding: 27px 0px 0px 0px;
+        /* padding: 27px 0px 0px 0px; */
         display: flex;
-        height: 181px;
-        /* align-items: center; */
+        height: 150px;
+        align-items: center;
         justify-content: space-between;
     
 
     }
 }
 
-@media (max-width: 576px) {
-    .timerfilter-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        /* padding: 10px; */
-    }
-}

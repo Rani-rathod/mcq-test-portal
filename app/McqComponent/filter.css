@@ -65,7 +65,7 @@
 
 
 .filter {
-    width: 284px;
+    /* width: 284px; */
     height: 375px;
     border: 1px dashed #777671;
     position: relative;
@@ -105,15 +105,20 @@
 
 
 .timerfilter-container{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
+    width: 284px;
     
 }
 
-/* @media (max-width: 576px) {
-    .timerfilter-container{
-        height: 181px;
+@media (max-width: 576px) {
+    .timerfilter-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        /* padding: 10px; */
     }
-} */
+}
 
 
 @media (max-width: 576px) {
@@ -127,7 +132,7 @@
     align-items: center;
     justify-content: center;
     /* margin-left: 234px; */
-    margin-top: 47px;
+    /* margin-top: 47px; */
 
 }
 

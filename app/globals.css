@@ -238,6 +238,8 @@ body {
         width: 159px;
         margin-left: 80px;
         margin-right: 81px;
+        cursor: pointer;
+
     }
 
 }
