@@ -3,6 +3,7 @@ body {
     padding: 0px; */
     margin: auto;
 }
+
 * {
     box-sizing: border-box;
 }
@@ -16,12 +17,29 @@ body {
 
 
 
-.Header{
-        display: flex;
-        height: 72px;
-        width: 100%;
-        background-color: #FCFAFA;
+
+.Header {
+    display: flex;
+    justify-content: center;
+    height: 72px;
+    width: 100%;
+    background-color: #FCFAFA;
 }
+
+.header-main {
+        gap: 5px;
+        height: 36px;
+        flex-shrink: 0;
+        color: #8F887C;
+        font-family: "Josefin Sans";
+        font-size: 28.736px;
+        font-weight: 700;
+        /* line-height: 100%; */
+        letter-spacing: 1.437px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
 
 
 
@@ -52,28 +70,31 @@ body {
 
 }
 
-.footer-content{
+.footer-content {
     height: 171px;
     border: solid 1px #4C4B49;
     background-color: #4C4B49;
 }
-.main-row{
+
+.main-row {
     height: 57px;
     margin-top: 46px;
     margin-bottom: 68px;
 }
-.footer-text{
+
+.footer-text {
     text-align: center;
     font-size: 18px;
     font-weight: 700;
     color: #F9F7F2;
 }
-.footer-headline{
+
+.footer-headline {
     font-size: 14px;
     text-align: center;
     color: #EBE9E6;
-   
-} 
+
+}
 
 
 
@@ -101,11 +122,12 @@ body {
 }
 
 
-.instraction{
-    background-color:  #EBE9E6;
+.instraction {
+    background-color: #EBE9E6;
     padding-bottom: 143px;
 }
-.headline{
+
+.headline {
     font-weight: 600;
     text-align: center;
     padding: 55px 0px 19px 0px;
@@ -114,55 +136,62 @@ body {
 
 
 }
+
 @media(max-width:576px) {
-    .headline{
-        padding: 40px 34px; 
-    }    
+    .headline {
+        padding: 40px 34px;
+    }
 }
 
-.instraction-container{
+.instraction-container {
     width: 705px;
     margin: auto;
     padding: 40px 0px 49px 0px;
-    background-color:#F9F7F2;
+    background-color: #F9F7F2;
 }
+
 @media (max-width:576px) {
-    .instraction-container{
+    .instraction-container {
         width: auto;
         margin: auto 20px;
 
     }
-    
+
 }
-.instraction-content{
+
+.instraction-content {
     width: 471px;
     margin: auto;
 }
+
 @media(max-width:576px) {
-    .instraction-content{
+    .instraction-content {
         width: auto;
         margin: auto 20px;
     }
-    
+
 }
-.context{
+
+.context {
     font-size: 18px;
     font-weight: 700;
     color: #4C4B49;
 
 }
+
 @media (max-width:576px) {
-    .context{
+    .context {
         text-align: center;
     }
 }
 
-.instraction-text{
+.instraction-text {
     margin-top: 16px;
     font-size: 14px;
     color: #4C4B49;
 }
-.test-instraction{
+
+.test-instraction {
     width: 475px;
     margin-top: 8px;
     font-size: 14px;
@@ -170,61 +199,68 @@ body {
 }
 
 @media(max-width:576px) {
-    .test-instraction{
+    .test-instraction {
         width: auto;
     }
-    
+
 }
-.test-url{
+
+.test-url {
     padding-left: 25px;
     margin-bottom: 0;
     color: #4C4B49;
 
 }
-.test-rule{
+
+.test-rule {
     margin-top: 8px;
     font-size: 14px;
     color: #4C4B49;
 
 }
-.last-instraction{
+
+.last-instraction {
     margin-top: 8px;
     font-size: 14px;
     color: #4C4B49;
 
 }
-.instruction-line{
+
+.instruction-line {
     width: 620px;
     height: 1px;
-    background-color:#4C4B49 ;
+    background-color: #4C4B49;
     margin: auto;
     margin-top: 40px;
 }
+
 @media (max-width:576px) {
-    .instruction-line{
+    .instruction-line {
         margin: auto 20px;
         width: auto;
         margin-top: 40px;
 
     }
-    
+
 }
-.start-button{
+
+.start-button {
     text-align: center;
-   
+
 }
-.click{
+
+.click {
     width: 159px;
     margin-top: 39px;
     font-size: 18px;
     box-shadow: 0px 4px 7px 0px #B3AE9C;
     padding: 16px 0px 16px 0px;
     border-radius: 4px;
-    border: 2px solid  #F4D150;
-    background-color:  #FEEEB4;
+    border: 2px solid #F4D150;
+    background-color: #FEEEB4;
     cursor: pointer;
 
-} 
+}
 
 
 

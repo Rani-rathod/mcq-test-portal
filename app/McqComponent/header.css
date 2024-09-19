@@ -2,22 +2,14 @@
     background: #FCFAFA;
 }
 
-
 .header-box {
-    gap: 5px;
+    display: flex;
+    width: 1200px;
+    margin: auto;
     text-align: center;
     justify-content: space-between;
-    height: auto;
-    width: 1200px;
     position: relative;
-    color: #8F887C;
-    font-family: "Josefin Sans";
-    font-size: 28.736px;
-    font-weight: 700;
-    margin: auto;
-    display: flex;
-    align-items: center;
-
+    height: auto;
 }
 
 
