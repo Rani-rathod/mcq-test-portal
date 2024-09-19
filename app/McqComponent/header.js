@@ -11,7 +11,7 @@ function Headerpage() {
                             <img className="logo" src="Logo.png" alt="Logo" />
                             <span className="header-title">QA</span>
                         </div>
-                        <div className='model-line'></div>
+                        {/* <div className='model-line'></div> */}
                         <div className='Pagination-box'>
                             <Pagination />
                         </div>

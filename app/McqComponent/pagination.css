@@ -62,10 +62,9 @@
 
 @media (max-width: 576px) {
     .Pagination-box {
-        display: flex;
-        /* padding-top: 34px; */
-        /* padding-bottom: 24px; */
-        height: 74px;
+        padding-top: 20px;
+        padding-bottom: 24px;
+        border: 2px solid #E0DFDA;
     }
 }
 
@@ -90,14 +89,6 @@
         /* margin-left: 26px; */
     }
 
-    .pointer {
-        height: 30px;
-        width: 30px;
-        background: #4C4B49;
-        color: #EBE9E6;
-        border: 1px solid #4C4B49;
-
-    }
 
     .previous {
         display: block;
@@ -155,7 +146,7 @@
         background: var(--Light-a, #FCFAFA);
         box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.10);
         /* padding: 18px; */
-        height: 147px;
+        height: auto;
     }
 }
 @media(max-width: 576px) {
@@ -173,11 +164,10 @@
     }
 
     .pointer {
-        height: 30px;
         width: 30px;
         background: #4C4B49;
         color: #EBE9E6;
-        border: 1px solid #4C4B49;
+        border: 2px solid #4C4B49;
 
     }
 

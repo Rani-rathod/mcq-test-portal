@@ -34,18 +34,6 @@
         margin-right: 0;
     }
 
-    .content-box {
-        width: 100%;
-    }
-
-    .questions {
-        flex: 1;
-    }
-
-    .filter {
-        min-width: 120px;
-    }
-
 }
 
 
@@ -101,9 +89,6 @@
         display: block;
         width: 100%;
         margin: auto;
-        /* padding-left: 20px;
-        padding-right: 20px; */
-        /* border: 1px solid red; */
 
     }
 }

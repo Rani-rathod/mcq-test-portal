@@ -76,6 +76,8 @@
 }
 
 
+
+
 .filter-div {
     padding: 48px;
     padding: 36px;
@@ -102,7 +104,11 @@
     margin-top: 35px;
 }
 
-
+@media (max-width: 576px) {
+    .filter {
+        min-width: 120px;
+    }
+}
 
 .timerfilter-container{
     /* border: 1px solid blue; */

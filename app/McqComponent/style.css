@@ -72,9 +72,8 @@ body {
 
 .timer {
     display: flex;
-    width: 150px;
-    height: 149px;
-    padding: 0px 0.896px 0.237px 0.896px;
+    width: 142px;
+    height: 142px;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
