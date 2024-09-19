@@ -17,20 +17,7 @@ body {
     /* border: 1px solid red; */
 
 }
-.header-box {
-    gap: 5px;
-    height: 72px;
-    color: #8F887C;
-    font-family: "Josefin Sans";
-    font-size: 28.736px;
-    font-weight: 700;
-    /* line-height: 100%; */
-    letter-spacing: 1.437px;
-    margin: auto;
-    display: flex;
-    align-items: center;
 
-}
 
 
 @media (max-width: 576px) {
