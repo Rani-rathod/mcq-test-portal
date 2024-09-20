@@ -6,22 +6,28 @@ const Filter = () => {
         <>
             <div className='timerfilter-container'>
                 <Timers />
-                <div className="desktop-view">
-                    <div className="filter">
-                        <div className="filter-div">
-                            <div className="filter-heading">filters</div>
-                            <div className="filter-score">Question Score</div>
-                            <div className="box">
-                                <div className="filter-all">All</div>
-                                <div className="filter-marks">10</div>
-                                <div className="filter-marks">15</div>
-                                <div className="filter-marks">20</div>
+                <div className="filter-content desktop-view">
+                    <div className="small-text">FILTERS</div>
+                    <div className="inside-function">
+                        <div className="score-items">
+                            <div>Question Score</div>
+                            <div className="fillter-values">
+                                <div className="fillter-score">All</div>
+                                <div className="fillter-score1">10</div>
+                                <div className="fillter-score1">15</div>
+                                <div className="fillter-score2">20</div>
                             </div>
-                            <div className="filter-subtitle">Questions Attempted</div>
-                            <div className="total-ques">
-                                <div className="attempt-all">All(40)</div>
-                                <div className="attempt">Attempted(3)</div><br />
-                                <div className="attempt">Unattempted(37)</div>
+                            <div className="">Questions Attempted</div>
+                            <div className="question-count">
+                                <div className="question-attempt">
+                                    <div className="question-text">All (40)</div>
+                                </div>
+                                <div className="question-attempt1">
+                                    <div className="question-text1">Attempted (3)</div>
+                                </div>
+                                <div className="question-unattempt">
+                                    <div className="question-text2">Unattempted (37)</div>
+                                </div>
                             </div>
                         </div>
                     </div>

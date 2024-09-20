@@ -1,6 +1,4 @@
-body{
-    font-family: Inter;
-}
+
 .submit-container{
     background-color: #EBE9E6;;
     padding: 103px 0px 428px 0px;
@@ -79,6 +77,4 @@ body{
     background-color:  #FEEEB4;
     box-shadow: 0px 4px 7px 0px #B3AE9C;
     cursor: pointer;
-
-
 }

@@ -51,15 +51,20 @@ body {
 
 .mcq-div {
     color: #4C4B49;
-    font-family: Inter;
     font-size: 24px;
     font-weight: 600;
-    letter-spacing: -0.48px;
     width: 184px;
     height: 28px;
     margin: auto;
     margin-top: 55px;
     margin-bottom: 19px;
+
+}
+@media (max-width:576px) {
+    .mcq-div {
+        width: 184px;
+        font-size: 24px;
+    }
 
 }
 
@@ -68,6 +73,14 @@ body {
     width: 705px;
     margin: auto;
 
+}
+
+@media (max-width:576px) {
+    .main-page {
+        width: 320px;
+        margin: auto;
+
+    }
 }
 
 .footer-content {
@@ -102,23 +115,6 @@ body {
     body {
         margin: auto;
     }
-
-    .header {
-        width: 576px;
-        margin: auto;
-    }
-
-    .mcq-div {
-        width: 184px;
-        font-size: 24px;
-    }
-
-    .main-page {
-        width: 320px;
-        margin: auto;
-
-    }
-
 }
 
 

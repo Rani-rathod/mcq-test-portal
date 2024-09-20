@@ -1,3 +1,4 @@
+
 .pagination {
     display: flex;
     justify-content: space-between;
@@ -29,14 +30,8 @@
         margin-top: 20px;
     }
 
-    .left {
-        margin-left: 0px;
-        display: none;
-    }
 
 }
-
-
 
 .left {
     width: 28px;
@@ -44,13 +39,27 @@
 }
 
 
+@media (max-width: 576px) {
+    .left {
+        margin-left: 0px;
+        display: none;
+    }
+}
+
 .right {
     width: 30px;
     border-radius: 30px;
     /* margin-left: 16px; */
 
 }
-
+@media (max-width: 576px) {
+    .right {
+        width: 30px;
+        border-radius: 30px;
+        /* margin-left: 26px; */
+    
+    }   
+}
 
 
 .Pagination-box {
@@ -76,31 +85,7 @@
         border: none;
 
     }
-
-    .right {
-        width: 30px;
-        border-radius: 30px;
-        /* margin-left: 26px; */
-    
-    }
-    .pageNo {
-        justify-content: center;
-        align-items: center;
-        /* margin-left: 26px; */
-    }
-
-
-    .previous {
-        display: block;
-        width: 30px;
-        height: 30px;
-        border: none;
-        margin-left: 0px
-    }
-
 }
-
-
 
 
 .pageNo {
@@ -108,22 +93,40 @@
     width: 30px;
     font-size: 14px;
     /* display: flex; */
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
     border-radius: 50%;
     /* margin-left: 16px; */
     color: #1F1E1C;
-    font-family: "Inria Sans";
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
     text-align: center;
 }
 
+@media(max-width: 576px) {
+    .pageNo {
+        justify-content: center;
+        align-items: center;
+        /* margin-left: 26px; */
+    }
+}
+
 
 .previous {
     display: none;
 }
+
+@media(max-width: 576px) {
+    .previous {
+        display: block;
+        width: 30px;
+        height: 30px;
+        border: none;
+        margin-left: 0px
+    }
+}
+
 
 .dotespace {
     display: none;
@@ -158,10 +161,6 @@
 
     }
 
-    .pageNo {
-        justify-content: center;
-        align-items: center;
-    }
 
     .pointer {
         width: 30px;
@@ -169,14 +168,6 @@
         color: #EBE9E6;
         border: 2px solid #4C4B49;
 
-    }
-
-    .previous {
-        display: block;
-        width: 30px;
-        height: 30px;
-        border: none;
-        margin-left: 0px
     }
 
 

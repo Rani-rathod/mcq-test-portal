@@ -29,10 +29,6 @@
 
 
 
-.header {
-    width: 1200px;
-}
-
 .logo-box {
     display: flex;
     width: 112px;
@@ -41,16 +37,11 @@
 }
 
 @media (max-width: 576px) {
-
     .logo-box {
         margin: auto;  
         height: 72px;      
     }
 
-    .model-line{
-        border: 1px solid #E0DFDA;
-        width: 100%;
-    }
 }
 
 
@@ -80,6 +71,15 @@
     align-items: center;
 }
 
+@media(max-width: 576px) {
+    .submit-button-content {
+        position: fixed;
+        bottom: 20px;
+        right: 21px;
+        margin-left: 0;
+        z-index: 2;
+    }
+}
 
 .submit-button {
     border-radius: 4px;
@@ -92,16 +92,6 @@
 
 }
 
-
-@media(max-width: 576px) {
-    .submit-button-content {
-        position: fixed;
-        bottom: 20px;
-        right: 21px;
-        margin-left: 0;
-        z-index: 2;
-    }
-}
 
 
 

@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import Footer from "./component/Footer";
 import "./globals.css";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -13,13 +14,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-          {children}
-          <link
+        {children}
+        <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Josefin Sans"
         />
-          <Footer />
-        </body>
+        <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&display=swap" rel="stylesheet" />
+        <Footer />
+      </body>
     </html>
   );
 }
