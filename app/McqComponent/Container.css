@@ -13,7 +13,7 @@
         /* width: 315px; */
         /* border: 2px solid blue; */
         margin: auto;
-        margin-top: 26px;
+        /* margin-top: 26px; */
         margin-bottom: 16px;
     }
 }
@@ -109,6 +109,7 @@
 .question-box {
     display: flex;
     margin-top: 12px;
+    align-items: center;
 }
 
 
@@ -123,6 +124,7 @@
     color: #4C4B49;
     font-family: Inter;
     font-size: 14px;
+
 }
 
 .option-text {

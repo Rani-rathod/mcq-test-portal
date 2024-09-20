@@ -62,10 +62,6 @@ body {
     }
 } */
 
-
-
-
-
 .timer {
     display: flex;
     width: 142px;
@@ -114,8 +110,9 @@ body {
     .timer-div {
         width: 101px;
         height: 100px;
-        top: 0px;
+        top: 12px;
         left: 0px;
+        margin-bottom: 58px;
     }
 }
 
