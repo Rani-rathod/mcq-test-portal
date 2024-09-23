@@ -24,7 +24,7 @@ body {
 @media (max-width: 576px) {
     .content-box {
         display: block;
-        width: 360px;
+        width: 100%;
         position: relative;
         margin: auto;
         margin-bottom: 259px;
@@ -132,7 +132,7 @@ body {
 
 @media (max-width: 576px) {
     .dot {
-        color: var(--Error, #E68086);
+        color: #E68086;
         font-family: Inter;
         font-size: 18px;
         font-weight: 500;
@@ -141,7 +141,7 @@ body {
 }
 
 .dot {
-    color: var(--Error, #E68086);
+    color: #E68086;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;

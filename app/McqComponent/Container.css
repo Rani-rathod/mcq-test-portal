@@ -30,8 +30,9 @@
     .main {
         flex-direction: column;
         width: 100%;
-        margin-left: 0;
-        margin-right: 0;
+        margin: auto;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
 }
@@ -96,7 +97,7 @@
 }
 
 .question {
-    color: #1F1E1C;
+    /* color: #1F1E1C; */
     font-family: Inter;
     font-size: 14px;
 }
@@ -104,12 +105,14 @@
 
 .options {
     margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 
 .question-box {
     display: flex;
-    margin-top: 12px;
     align-items: center;
 }
 
