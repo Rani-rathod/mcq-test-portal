@@ -1,0 +1,153 @@
+.timer-div {
+    position: relative;
+    text-align: center;
+    bottom: 40px;
+}
+
+
+@media (max-width: 576px) {
+
+    .timer-div {
+        width: 101px;
+        height: 100px;
+        top: 12px;
+        /* left: 0px; */
+        margin-bottom: 58px;
+    }
+}
+
+.timer {
+    display: flex;
+    width: 142px;
+    height: 142px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: conic-gradient(#EBE9E6 0deg 300deg, #E68086 300deg 360deg);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin: auto;
+
+}
+@media (max-width: 576px) {
+    .timer {
+        height: 100px;
+        width: 100px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background: conic-gradient(#EBE9E6 0deg 160deg, #E68086 160deg 360deg);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    }
+}
+
+
+.timer-inside {
+    display: flex;
+    width: 120px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    /* z-index: 10px; */
+    background: #F9F7F2;
+    box-shadow: inset 0px 6px 4px -1px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 576px) {
+    .timer-inside {
+        display: flex;
+        width: 85px;
+        height: 85px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background: #F9F7F2;
+    }
+}
+
+.tim {
+    width: 74px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.timeint,
+.timestr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.hour {
+    margin-right: 5px;
+}
+
+.sec {
+    margin-left: 5px;
+}
+
+.time {
+    color: #E68086;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+@media (max-width: 576px) {
+    .time {
+        color:#E68086;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+    }
+}
+
+.min {
+    color: #1F1E1C;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.minute {
+    margin-right: 15px;
+}
+
+
+@media (max-width: 576px) {
+    .dot {
+        color: #E68086;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+}
+
+.dot {
+    color: #E68086;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+@media (max-width:576px) {
+    .desktop-view {
+        display: none;
+    }
+}
+.timer-text {
+    margin-top: 8px;
+    color: #1F1E1C;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+}

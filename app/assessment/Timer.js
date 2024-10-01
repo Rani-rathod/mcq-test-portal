@@ -1,4 +1,4 @@
-
+import "./timer.css";
 const Timers = () => {
     return (
         <>

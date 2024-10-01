@@ -4,8 +4,7 @@ import Timers from './Timer';
 const Filter = () => {
     return (
         <>
-            <div className='timerfilter-container'>
-                <Timers />
+            {/* <div className='timerfilter-container'> */}
                 <div className="filter-content desktop-view">
                     <div className="small-text">FILTERS</div>
                     <div className="inside-function">
@@ -42,7 +41,7 @@ const Filter = () => {
                         <div className="filter-text">filter</div>
                     </div>
                 </div>
-            </div>
+            {/* </div> */}
         </>
     )
 }
