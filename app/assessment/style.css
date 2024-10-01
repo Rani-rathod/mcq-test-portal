@@ -112,7 +112,7 @@ body {
         width: 101px;
         height: 100px;
         top: 12px;
-        left: 0px;
+        /* left: 0px; */
         margin-bottom: 58px;
     }
 }
@@ -232,3 +232,5 @@ body {
 
     }
 }
+
+

@@ -1,18 +1,20 @@
 import Filter from "./filter";
-import Container from "./container";
+import Question from "./Question";
+// import Timers from "./Timer";
 
 const Content = () => {
     return (
         <>
             <div className="content-box">
                 <div className="main">
+                {/* <Timers/> */}
                 <Filter />
                 <div className="questions">
-                    <Container />
-                    <Container />
-                    <Container />
-                    <Container />
-                    <Container />
+                    <Question />
+                    <Question />
+                    <Question />
+                    <Question />
+                    <Question />
                 </div>
             </div>
             </div>

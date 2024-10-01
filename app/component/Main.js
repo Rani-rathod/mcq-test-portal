@@ -31,7 +31,7 @@ const main=()=>{
                     </div>
                     <div className="instruction-line"></div>
                     <div className="start-button">
-                        <a  href="/McqComponent">
+                        <a  href="./assessment">
                             <button className="click">Lets Start! </button>
                         </a>    
                     </div>   
