@@ -43,12 +43,12 @@
 }
 
 
-.timer-filter{
+.timer-filter-container{
     width: 284px;
 }
 
 @media (max-width: 576px) {
-    .timer-filter{
+    .timer-filter-container{
         width: auto;
         display: flex;
         justify-content: space-between;

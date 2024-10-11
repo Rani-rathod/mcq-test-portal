@@ -2,15 +2,18 @@
 import React from 'react';
 import  Header from "../component/Header";
 import Questions_score from "./Questions_score";
-import Data from '../assessment/Data';
+import Questions_list from './Questions_list';
 function page() {
   return (
-    <div>
-      <Header/>
-      <Questions_score/>
-      <Data/>
-    </div>
+    <>
+    <Header/>  
+    <div className="questions-siderbar">
+        <Questions_score/>
+        <Questions_list/>
+    </div>                
+</>
   )
 }
 
 export default page;
+

@@ -8,7 +8,7 @@ const Content = () => {
         <>
             <div className="content-box">
                 <div className="main">
-                    <div className="timer-filter">
+                    <div className="timer-filter-container">
                 <Timers/>
                 <Filter />
                 </div>

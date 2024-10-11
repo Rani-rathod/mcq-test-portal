@@ -30,7 +30,7 @@ const Question = () => {
                         <span className="option">Balwantrai Mehta Committee</span>
                     </label>
                 </div>
-            </div>`
+            </div>
         </>
     )
 }

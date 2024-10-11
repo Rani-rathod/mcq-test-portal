@@ -1,6 +1,6 @@
 
 import './filter.css';
-import Timers from './Timer';
+// import Timers from './Timer';
 const Filter = () => {
     return (
         <>
