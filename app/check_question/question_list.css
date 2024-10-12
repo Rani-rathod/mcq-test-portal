@@ -12,6 +12,7 @@
 
 .question-first{
     height: 28px;
+    margin-bottom: 19px;
 }
 .correct-logo1{
     width: 28px;
@@ -156,19 +157,12 @@
     }
     
 }
-@media (max-width:576px) {
-    .question-content{
-        width: 260px;
-        height: 226px;
-    }
-}
+
 .question-list-line{
     width: 580px;
     height: 1px;
     background-color:  #8F887C ;
     margin: 20px 0px 20px 0px;
-
-    
 }
 @media (max-width:576px) {
     .question-list-line{
@@ -217,11 +211,13 @@
 @media (max-width: 576px) {
     .question-content {
         /* border: 1px solid blue; */
-        padding-top: 40px;
+        margin: auto;
+        padding-top: 19px;
         padding-bottom: 40px;
         margin-bottom: 40px;
     }
 }
+
 
 
 

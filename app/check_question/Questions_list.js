@@ -130,7 +130,7 @@ const Questions_list = function () {
                 <Questions_list_items />
                 <Questions_list_items />
 
-                <div className="question-first">
+                {/* <div className="question-first">
                     <div className="unattempted-logo1">
                         <span className="unattempted-icon">!</span>
                     </div>
@@ -147,19 +147,12 @@ const Questions_list = function () {
                             <div className="option-icon1"></div>
                             <span className="option-text desktop-only">Tarapore Committee</span>
                             <div className="mobile-only">
-                                <div className="join-text">
-                                    <span className="option-text ">Tarapore Committee</span>
-                                    <div className="option-text1">Right Answer</div>
-                                </div>
                             </div>
                         </div>
                         <div className="option-content">
                             <div className="option-highlight">
                                 <div className="option-icon2"></div>
                                 <span className="option-text ">Radha Krishnan Committee</span>
-                            </div>
-                            <div className="desktop-only">
-                                <span className="option-text1">Right Answer</span>
                             </div>
                         </div>
                         <div className="option-content">
@@ -172,7 +165,7 @@ const Questions_list = function () {
                         </div>
 
                     </div>
-                </div>
+                </div> */}
 
                 <div className="question-list-line"></div>
                 <div className="question-first">
